@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Finance Quiz</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div id="start" class="panel">
+		<button class="" id="start-quiz">Start!</button>
+	</div>
+	<div id="quiz" class="panel" hidden>
+		<div class="panel-header">
+			<span id="question-number"></span>
+			<span id="question-text">Question text</span>
+		</div>
+		<div class="panel-body">
+			
+		</div>
+		<div class="panel-footer">
+			<span id="score-number">0</span>/
+			<span id="question-total"></span>
+			<button id="submit-question" type="button" tabindex="1">Submit</button>
+		</div>
+	</div>
+	<div id="final" class="panel" hidden>
+		<div>Congratulations on completing the quiz.</div>
+		<span id="final-score"></span>
+		<div>
+		<button id="retry" type="button">Retry</button>
+		</div>
+	</div>
+
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>	
+
+</body>
+</html>
